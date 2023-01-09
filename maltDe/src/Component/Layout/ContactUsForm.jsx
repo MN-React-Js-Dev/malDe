@@ -70,69 +70,69 @@ const ContactUsForm = () => {
   }
   return (
     <>
-      <div id="contact" class="contact-us section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+      <div id="contact" className="contact-us section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
               <form id="contact" action="" method="post">
-                <div class="row">
-                  <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
+                <div className="row">
+                  <div className="col-lg-6 offset-lg-3">
+                    <div className="section-heading">
                       <h6>Contact Us</h6>
                       <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2>
                     </div>
                   </div>
-                  <div class="col-lg-9">
-                    <div class="row">
-                      <div class="col-lg-6">
+                  <div className="col-lg-9">
+                    <div className="row">
+                      <div className="col-lg-6">
                         <fieldset>
                           <input type="text" name="name" id="name" className={error.name.length > 0 && "error_red"} placeholder="Name" autocomplete="on" value={formData.name} onChange={handleInpues} />
                         </fieldset>
                       </div>
-                      <div class="col-lg-6">
+                      <div className="col-lg-6">
                         <fieldset>
                           <input type="text" name="surname" id="surname" placeholder="Surname" className={error.surname.length > 0 && "error_red"} autocomplete="on" value={formData.surname} onChange={handleInpues} />
                         </fieldset>
                       </div>
-                      <div class="col-lg-6">
+                      <div className="col-lg-6">
                         <fieldset>
                           <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" className={error.email.length > 0 && "error_red"} placeholder="Your Email" value={formData.email} onChange={handleInpues} />
                         </fieldset>
                       </div>
-                      <div class="col-lg-6">
+                      <div className="col-lg-6">
                         <fieldset>
                           <input type="text" name="subject" id="subject" placeholder="Subject" autocomplete="on" value={formData.subject} onChange={handleInpues} />
                         </fieldset>
                       </div>
-                      <div class="col-lg-12">
+                      <div className="col-lg-12">
                         <fieldset>
-                          <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" value={formData.message} onChange={handleInpues}></textarea>
+                          <textarea name="message" type="text" className="form-control" id="message" placeholder="Message" value={formData.message} onChange={handleInpues}></textarea>
                         </fieldset>
                       </div>
-                      <div class="col-lg-12">
+                      <div className="col-lg-12">
                         <fieldset>
-                          <button type="button" class="main-button" onClick={hanldeContactForm}>Send Message Now</button>
+                          <button type="button" className="main-button" onClick={hanldeContactForm}>Send Message Now</button>
                         </fieldset>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
-                    <div class="contact-info">
+                  <div className="col-lg-3">
+                    <div className="contact-info">
                       <ul>
                         <li>
-                          <div class="icon">
+                          <div className="icon">
                             <img src={ContactIcon} alt="email icon" />
                           </div>
                           <a href="#">info@company.com</a>
                         </li>
                         <li>
-                          <div class="icon">
+                          <div className="icon">
                             <img src={ContactIcon2} alt="phone" />
                           </div>
                           <a href="#">+001-002-0034</a>
                         </li>
                         <li>
-                          <div class="icon">
+                          <div className="icon">
                             <img src={LocationIcon3} alt="location" />
                           </div>
                           <a href="#">26th Street, Digital Villa</a>
