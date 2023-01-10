@@ -1,6 +1,63 @@
-.error_red{    
-   border:1px solid red!important
+body {
+    overflow-x: hidden;
 }
+
+.error_red {
+    border: 1px solid red !important
+}
+
 .client-logo {
     padding: 30px;
+}
+
+section#aboutnnew {
+    margin-top: 100px;
+}
+
+li.cstm {
+    list-style-type: disclosure-closed;
+    text-align: left;
+}
+
+.cstm_h4 {
+    text-align: left;
+}
+
+.corosal_cst {
+    margin-top: 100px;
+}
+
+.cst-ehading {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 800;
+    position: relative;
+    z-index: 2;
+    line-height: 45px;
+    color: #2a2a2a;
+    margin: 10px;
+}
+
+.cst-ehading-span {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 800;
+    position: relative;
+    z-index: 2;
+    line-height: 45px;
+    color: #33ccc5;
+    margin: 10px;
+}
+
+.cst-coro-m {
+    cursor: pointer;
+}
+
+.service-item:hover {
+    background: linear-gradient(105deg, rgba(51, 204, 197, 1) 0%, rgba(8, 141, 195, 1) 100%) !important;
+}
+
+.gap-to {
+    
+    cursor: pointer;
 }
