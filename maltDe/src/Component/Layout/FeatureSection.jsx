@@ -39,7 +39,7 @@ const FeatureSection = () => {
                   <div className="icon"></div>
                   <h4>Implementation</h4>
                   <div className="line-dec"></div>
-                  <p>If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.</p>
+                  <p>If this template is useful for your website, please consider to <a rel="nofollow" href="#" target="_blank">support us</a> a little.</p>
                 </div>
               </div>
               <div className="col-lg-3">

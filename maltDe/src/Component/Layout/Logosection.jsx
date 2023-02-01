@@ -22,7 +22,7 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.1s" >
-                            <img src={htmlLogo} alt="" className="img-fluid-code"/>
+                            <img src={htmlLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -30,21 +30,24 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.2s" > <img src={CssLogo} alt="" className="img-fluid-code"/></div>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.2s" >
+                             <img src={CssLogo} alt="" className="img-fluid-code w-50" /></div>
                     </div>
                 </div>
 
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.3s" > <img src={JavasLogo} alt="" className="img-fluid-code"/></div>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.3s" >
+                            <img src={JavasLogo} alt="" className="img-fluid-code w-50" /></div>
                     </div>
                 </div>
 
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.4s" > <img src={ReactLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.4s" >
+                            <img src={ReactLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -52,14 +55,16 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.5s" > <img src={NodeLogo} alt="" className="img-fluid-code"/></div>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.5s" >
+                            <img src={NodeLogo} alt="" className="img-fluid-code w-50" /></div>
                     </div>
                 </div>
 
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" > <img src={PythonLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={PythonLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -67,7 +72,8 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" > <img src={AngularLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={AngularLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -75,7 +81,8 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" > <img src={FlutterLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={FlutterLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -83,7 +90,8 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" > <img src={PhpLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={PhpLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -91,7 +99,8 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" > <img src={MysqLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={MysqLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -99,7 +108,8 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" > <img src={AndroidLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={AndroidLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>
@@ -107,7 +117,8 @@ const Logosection = () => {
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" > <img src={JavaLogo} alt="" className="img-fluid-code"/>
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={JavaLogo} alt="" className="img-fluid-code w-50" />
                         </div>
                     </div>
                 </div>

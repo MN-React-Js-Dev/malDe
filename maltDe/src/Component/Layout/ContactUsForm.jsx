@@ -1,4 +1,4 @@
-import React, { useState ,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import ContactIcon from '../../assets/images/contact-icon-01.png'
 import ContactIcon2 from '../../assets/images/contact-icon-02.png'
 import LocationIcon3 from '../../assets/images/contact-icon-03.png'
@@ -28,7 +28,7 @@ const ContactUsForm = () => {
         error.surname = value.length > 0 ? "" : "Fields Are Required"
         break;
       case "email":
-         if (!value) {
+        if (!value) {
           error.email = value.length > 0 ? "" : "Enter your email"
         }
         else {
@@ -52,13 +52,13 @@ const ContactUsForm = () => {
     if (!formData.name) {
       error.name = "Enter name"
     }
-    
+
     return error
   }
 
   useEffect(() => {
     if (Object.keys(error).length === 0 && Object.keys(formData).length !== 0) {
-     }
+    }
   }, [])
 
 
@@ -66,8 +66,8 @@ const ContactUsForm = () => {
     e.preventDefault();
     setsubmit(true)
     setError(validate(formData));
-
   }
+
   return (
     <>
       <div id="contact" className="contact-us section">
@@ -78,8 +78,8 @@ const ContactUsForm = () => {
                 <div className="row">
                   <div className="col-lg-6 offset-lg-3">
                     <div className="section-heading">
-                      <h6>Contact Us</h6>
-                      <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2>
+                      <h2>Contact Us </h2>
+                      {/* <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2> */}
                     </div>
                   </div>
                   <div className="col-lg-9">

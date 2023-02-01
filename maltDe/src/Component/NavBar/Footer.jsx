@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="col-lg-12">
           <p>Copyright © 2021 SEO Dream 
           
-          <br/>Web Designed by <a rel="nofollow" href="#" title="free CSS templates">Temp</a></p>
+          <br/>Web Designed by <a rel="nofollow" href="https://koliinfotech.com/" title="free CSS templates">Koli Infotech</a></p>
         </div>
       </div>
     </div>

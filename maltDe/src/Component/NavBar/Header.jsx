@@ -23,12 +23,11 @@ const Header = () => {
                 <ul className={`nav ${flag ? "cst-open-close" : ""} `}>
                   <li><Link className="scroll-to-section gap-to" to="top" spy={true} smooth={true}>Home</Link> </li>
                   <li><Link className="scroll-to-section gap-to" to="about" spy={true} smooth={true}>About Us</Link></li>
-                  <li><Link className="scroll-to-section gap-to" to="features" spy={true} smooth={true}>Features</Link></li>
+                  <li><Link className="scroll-to-section gap-to" to="features" spy={true} smooth={true}>How it works</Link></li>
                   <li><Link className="scroll-to-section gap-to" to="services" spy={true} smooth={true}>Services</Link></li>
-                  <li><Link className="scroll-to-section gap-to" to="portfolio" spy={true} smooth={true}>Hire Team</Link></li>
-                  <li><Link className="scroll-to-section gap-to" to="portfolio" spy={true} smooth={true}>Careear</Link></li>
+                  <li><Link className="scroll-to-section gap-to" to="pricing-section" spy={true} smooth={true}>Pricing </Link></li>
                   <li><Link className="scroll-to-section gap-to" to="contact" spy={true} smooth={true}>Contact Us</Link></li>
-                  <li><Link className="scroll-to-section"  to="contact" spy={true} smooth={true}>
+                  <li><Link className="scroll-to-section" to="contact" spy={true} smooth={true}>
                     <div className="main-blue-button">
                       <a href="#contact">Get Your Quote</a>
                     </div>

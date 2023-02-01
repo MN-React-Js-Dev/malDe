@@ -11,6 +11,7 @@ import Footer from './Component/NavBar/Footer'
 import Header from './Component/NavBar/Header'
 import OurServicesSection from './vendor/OurServicesSection'
 import { Route, Router } from 'react-router-dom'
+import Pricing from './Component/Layout/Pricing'
 
 function App() {
 
@@ -19,14 +20,15 @@ function App() {
     
           <Header />
           <HeroSection />
-          <FeatureSection />
           <AboutUsSection />
           <CorosalSection />
-          <Newsection />
+          {/* <Newsection /> */}
           <OurServicesSection />
           <Logosection />
-          {/* <Portfolio /> */}
+          <FeatureSection />
+          <Pricing/>
           <ContactUsForm />
+          {/* <Portfolio /> */}
           <Footer />
      </>
   )

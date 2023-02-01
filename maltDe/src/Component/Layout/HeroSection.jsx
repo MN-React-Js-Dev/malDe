@@ -30,8 +30,10 @@ const HeroSection = () => {
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">                                          
-                                                <h2>Digital Challenges &amp; Generate Growth</h2>
-                                            </div>
+                                                {/* <h2>Digital Challenges &amp; Generate Growth</h2> */}
+                                                <h2>Top Software Developers In Tech for your company.</h2>
+
+                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="main-green-button scroll-to-section">
                                                     <a href="#contact">Get Your Quote</a>
