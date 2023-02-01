@@ -25,11 +25,10 @@ function App() {
           {/* <Newsection /> */}
           <OurServicesSection />
           <Logosection />
-          <FeatureSection />
           <Pricing/>
+          <FeatureSection />
           <ContactUsForm />
-          {/* <Portfolio /> */}
-          <Footer />
+           <Footer />
      </>
   )
 }
