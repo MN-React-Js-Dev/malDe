@@ -932,7 +932,7 @@ Banner Style
    overflow: hidden;
  }
 
- .main-banner:after {
+ /* .main-banner:after {
    content: '';
    background-image: url(../images/banner-dec-left.png);
    background-repeat: no-repeat;
@@ -942,7 +942,7 @@ Banner Style
    width: 212px;
    height: 653px;
    z-index: 0;
- }
+ } */
 
  .main-banner:before {
    content: '';
@@ -1958,4 +1958,10 @@ responsive
   background-color: rgb(71, 113, 203) !important;
     color: rgb(255, 255, 255) !important;
     border-bottom: 2px solid rgb(51, 204, 197) !important;
+}
+.header-area {
+  /* background:   #FF4F6B !important; */
+  background:   #ff9e45 !important;
+
+   
 }

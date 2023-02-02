@@ -17,7 +17,7 @@ const FeatureSection = () => {
                   <div className="icon"></div>
                   <h4>Reach Out</h4>
                   <div className="line-dec"></div>
-                  <p>This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
+                  <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
                 </div>
               </div>
               <div className="col-lg-3">
@@ -39,7 +39,7 @@ const FeatureSection = () => {
                   <div className="icon"></div>
                   <h4>Implementation</h4>
                   <div className="line-dec"></div>
-                  <p>If this template is useful for your website, please consider to <a rel="nofollow" href="#" target="_blank">support us</a> a little.</p>
+                  <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
                 </div>
               </div>
               <div className="col-lg-3">

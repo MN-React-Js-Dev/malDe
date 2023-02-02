@@ -123,19 +123,19 @@ const ContactUsForm = () => {
                           <div className="icon">
                             <img src={ContactIcon} alt="email icon" />
                           </div>
-                          <a href="#">info@company.com</a>
+                          <a href="#">koliinfotech@gmail.com</a>
                         </li>
                         <li>
                           <div className="icon">
                             <img src={ContactIcon2} alt="phone" />
                           </div>
-                          <a href="#">+001-002-0034</a>
+                          <a href="#">+91 9904439004</a>
                         </li>
                         <li>
                           <div className="icon">
                             <img src={LocationIcon3} alt="location" />
                           </div>
-                          <a href="#">26th Street, Digital Villa</a>
+                          <a href="#">Dindoli, Godadara, Surat</a>
                         </li>
                       </ul>
                     </div>

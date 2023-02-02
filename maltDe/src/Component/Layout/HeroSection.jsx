@@ -11,7 +11,7 @@ const HeroSection = () => {
                                 <div className="col-lg-6 align-self-center">
                                     <div className="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                                         <div className="row">
-                                            <div className="col-lg-4 col-sm-4">
+                                            {/* <div className="col-lg-4 col-sm-4">
                                                 <div className="info-stat">
                                                     <h6>Agency Status:</h6>
                                                     <h4>Ready Work</h4>
@@ -28,7 +28,7 @@ const HeroSection = () => {
                                                     <h6>Schedules</h6>
                                                     <h4>$450/Meeting</h4>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                             <div className="col-lg-12">                                          
                                                 {/* <h2>Digital Challenges &amp; Generate Growth</h2> */}
                                                 <h2>Top Software Developers In Tech for your company.</h2>

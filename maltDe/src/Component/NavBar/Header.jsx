@@ -15,7 +15,7 @@ const Header = () => {
             <div className="col-12">
               <nav className="main-nav">
                 <a href="#" className="logo" >
-                  <h4>MALTDE
+                  <h4>ROSHAN
                     {/* <img src="assets/images/logo-icon.png" alt="" /> */}
                   </h4>
                 </a>
