@@ -1,0 +1,66 @@
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4771cb;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink_me0 {
+  animation: blinker 1s linear infinite;
+}
+
+.blink_me1 {
+  animation: blinker 2s linear infinite;
+}
+.blink_me2 {
+  animation: blinker 3s linear infinite;
+}
+.blink_me3 {
+  animation: blinker 4s linear infinite;
+}
+.blink_me4 {
+  animation: blinker 5s linear infinite;
+}
+.blink_me5 {
+  animation: blinker 6s linear infinite;
+}
+.blink_me6 {
+  animation: blinker 7s linear infinite;
+}
+.blink_me7 {
+  animation: blinker 8s linear infinite;
+}
+
+.blink_me8 {
+  animation: blinker 9s linear infinite;
+}
+
+.blink_me9 {
+  animation: blinker 10s linear infinite;
+}
+

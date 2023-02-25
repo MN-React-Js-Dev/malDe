@@ -1,6 +1,11 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
+
+
 import HeroImg from '../../assets/images/banner-right-image.png'
 const HeroSection = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <div className="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -29,14 +34,18 @@ const HeroSection = () => {
                                                     <h4>$450/Meeting</h4>
                                                 </div>
                                             </div> */}
-                                            <div className="col-lg-12">                                          
-                                                {/* <h2>Digital Challenges &amp; Generate Growth</h2> */}
-                                                <h2>Top Software Developers In Tech for your company.</h2>
+                                         
 
-                                             </div>
+                                            <div className="col-lg-12">
+                                                {/* <h2>Digital Challenges &amp; Generate Growth</h2> */}
+                                                {/* <h2>Top Software Developers In Tech for your company.</h2> */}
+                                                <h2 className='blink_me'>{t('topSoftwareDeveloper')}</h2>
+
+
+                                            </div>
                                             <div className="col-lg-12">
                                                 <div className="main-green-button scroll-to-section">
-                                                    <a href="#contact">Get Your Quote</a>
+                                                    <a href="#contact">{t("contactUs")}</a>
                                                 </div>
                                             </div>
                                         </div>

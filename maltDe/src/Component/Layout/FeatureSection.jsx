@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const FeatureSection = () => {
+  const { t } = useTranslation();
+
   return (
     <>
     <div id="features" className="features section">
@@ -15,7 +18,7 @@ const FeatureSection = () => {
                     <h6>01</h6>
                   </div>
                   <div className="icon"></div>
-                  <h4>Reach Out</h4>
+                  <h4>{t("reachOut")}</h4>
                   <div className="line-dec"></div>
                   <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
                 </div>
@@ -26,7 +29,7 @@ const FeatureSection = () => {
                     <h6>02</h6>
                   </div>
                   <div className="icon"></div>
-                  <h4>Develop a Strategy</h4>
+                  <h4>{t("developaStrategy")}</h4>
                   <div className="line-dec"></div>
                   <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
                 </div>
@@ -37,7 +40,7 @@ const FeatureSection = () => {
                     <h6>03</h6>
                   </div>
                   <div className="icon"></div>
-                  <h4>Implementation</h4>
+                  <h4>{t("implementation")}</h4>
                   <div className="line-dec"></div>
                   <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
                 </div>
@@ -48,15 +51,15 @@ const FeatureSection = () => {
                     <h6>04</h6>
                   </div>
                   <div className="icon"></div>
-                  <h4>Analyze the result</h4>
+                  <h4>{t("analyzetheresult")}</h4>
                   <div className="line-dec"></div>
-                  <p>Below circular progress bar animation supports those CSS values 10, 20, 30, till 100.</p>
+                  <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-12">
+        {/* <div className="col-lg-12">
           <div className="skills-content">
             <div className="row">
               <div className="col-lg-3">
@@ -133,7 +136,7 @@ const FeatureSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>

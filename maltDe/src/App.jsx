@@ -12,22 +12,26 @@ import Header from './Component/NavBar/Header'
 import OurServicesSection from './vendor/OurServicesSection'
 import { Route, Router } from 'react-router-dom'
 import Pricing from './Component/Layout/Pricing'
+import { useTranslation } from "react-i18next";
+import { ExampleComponent } from './translations/ExampleComponent.jsx'
+  
 
 function App() {
 
   return (
     <>
-      <Header />
+       <Header />
       <HeroSection />
       <AboutUsSection />
       <CorosalSection />
-      {/* <Newsection /> */}
       <OurServicesSection />
       <Logosection />
       <Pricing />
       <FeatureSection />
       <ContactUsForm />
       <Footer />
+      {/* <Newsection /> */}
+
     </>
   )
 }

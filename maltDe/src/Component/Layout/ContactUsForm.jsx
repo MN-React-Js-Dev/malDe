@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import ContactIcon from '../../assets/images/contact-icon-01.png'
 import ContactIcon2 from '../../assets/images/contact-icon-02.png'
 import LocationIcon3 from '../../assets/images/contact-icon-03.png'
@@ -6,6 +7,8 @@ import LocationIcon3 from '../../assets/images/contact-icon-03.png'
 const emailRegx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 
 const ContactUsForm = () => {
+  const { t } = useTranslation();
+
   const [submit, setsubmit] = useState(false)
 
   const [formData, setformData] = useState({
@@ -78,7 +81,7 @@ const ContactUsForm = () => {
                 <div className="row">
                   <div className="col-lg-6 offset-lg-3">
                     <div className="section-heading">
-                      <h2>Contact Us </h2>
+                      <h2>{t("contactUs")} </h2>
                       {/* <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2> */}
                     </div>
                   </div>
@@ -91,27 +94,27 @@ const ContactUsForm = () => {
                       </div>
                       <div className="col-lg-6">
                         <fieldset>
-                          <input type="text" name="surname" id="surname" placeholder="Surname" className={error.surname.length > 0 && "error_red"} autocomplete="on" value={formData.surname} onChange={handleInpues} />
+                          <input type="text" name="surname" id="surname" placeholder={t("surname")} className={error.surname.length > 0 && "error_red"} autocomplete="on" value={formData.surname} onChange={handleInpues} />
                         </fieldset>
                       </div>
                       <div className="col-lg-6">
                         <fieldset>
-                          <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" className={error.email.length > 0 && "error_red"} placeholder="Your Email" value={formData.email} onChange={handleInpues} />
+                          <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" className={error.email.length > 0 && "error_red"} placeholder={t("yourEmail")} value={formData.email} onChange={handleInpues} />
                         </fieldset>
                       </div>
                       <div className="col-lg-6">
                         <fieldset>
-                          <input type="text" name="subject" id="subject" placeholder="Subject" autocomplete="on" value={formData.subject} onChange={handleInpues} />
+                          <input type="text" name="subject" id="subject" placeholder={t("subject")} autocomplete="on" value={formData.subject} onChange={handleInpues} />
                         </fieldset>
                       </div>
                       <div className="col-lg-12">
                         <fieldset>
-                          <textarea name="message" type="text" className="form-control" id="message" placeholder="Message" value={formData.message} onChange={handleInpues}></textarea>
+                          <textarea name="message" type="text" className="form-control" id="message" placeholder={t("message")} value={formData.message} onChange={handleInpues}></textarea>
                         </fieldset>
                       </div>
                       <div className="col-lg-12">
                         <fieldset>
-                          <button type="button" className="main-button" onClick={hanldeContactForm}>Send Message Now</button>
+                          <button type="button" className="main-button" onClick={hanldeContactForm}>{t("sendMessageNow")}</button>
                         </fieldset>
                       </div>
                     </div>

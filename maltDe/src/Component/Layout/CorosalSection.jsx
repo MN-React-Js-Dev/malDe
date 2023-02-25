@@ -11,11 +11,11 @@ import Img5 from '../../assets/images/niclas-ill.jpg'
 import Img6 from '../../assets/images/jasonTeam.jpg'
 import Img7 from '../../assets/images/ux-indonesia.jpg'
 import Img8 from '../../assets/images/images.jpg'
-
-
-
+import { useTranslation } from 'react-i18next';
 
 const CorosalSection = () => {
+    const { t } = useTranslation();
+
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -38,7 +38,7 @@ const CorosalSection = () => {
     return (
         <>
             <section className='corosal_cst'>
-                <h1 className='text-center m-5 cst-ehading'>Industries<span className='cst-ehading-span'>We</span>Serve</h1>
+                <h1 className='text-center m-5 cst-ehading'>{t("industries")}<span className='cst-ehading-span'>{t("we")}</span>{t("serve")}</h1>
                 <Carousel className='cst-coro-m' responsive={responsive} swipeable={false}
                 >
                     <div class='row'>
@@ -49,8 +49,8 @@ const CorosalSection = () => {
                                         <img src={Img1} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6 ">
-                                        <h4><b>Web Application & Devlopmemt</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("webApplicationDevlopmemt")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -64,8 +64,8 @@ const CorosalSection = () => {
                                         <img src={AboutImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Web & software</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("websoftware")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,8 +79,8 @@ const CorosalSection = () => {
                                         <img src={Img2} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>DevOps Consuting</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("devOpsConsuting")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -94,8 +94,8 @@ const CorosalSection = () => {
                                         <img src={Img3} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Legnacy software Modernization</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("legnacysoftwareModernization")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,8 +109,8 @@ const CorosalSection = () => {
                                         <img src={Img4} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Custom software Devlopment</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("customsoftwareDevlopment")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -124,8 +124,8 @@ const CorosalSection = () => {
                                         <img src={Img4} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Mobile App Devlopment</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("mobileAppDevlopment")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,8 +139,8 @@ const CorosalSection = () => {
                                         <img src={Img6} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Dedicated Devlopment Teams</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("dedicatedDevlopmentTeams")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,8 +154,8 @@ const CorosalSection = () => {
                                         <img src={UiuxImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Ui/Ux Design</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("uiDesign")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,8 +169,8 @@ const CorosalSection = () => {
                                         <img src={Img7} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Testing & QA</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("testingQA")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -184,14 +184,14 @@ const CorosalSection = () => {
                                         <img src={Img8} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>E-commerce Application Development</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("ecommerceApplicationDevelopment")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
                         </section>
                     </div>
-                     
+
                     <div class='row'>
                         <section id="aboutnnew_corosal" class="aboutnew">
                             <div class="container">
@@ -200,8 +200,8 @@ const CorosalSection = () => {
                                         <img src={AboutImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Deigital Tranformation</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("deigitalTranformation")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@ const CorosalSection = () => {
                                     </div>
                                     <div class="col-lg-6">
                                         <h4><b>AR/VR</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -231,7 +231,7 @@ const CorosalSection = () => {
                                     </div>
                                     <div class="col-lg-6">
                                         <h4><b>Blockchain</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -245,8 +245,8 @@ const CorosalSection = () => {
                                         <img src={AboutImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Product Enginnering</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("productEnginnering")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -260,8 +260,8 @@ const CorosalSection = () => {
                                         <img src={AboutImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Enterprise Mobility</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("enterpriseMobility")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -276,7 +276,7 @@ const CorosalSection = () => {
                                     </div>
                                     <div class="col-lg-6">
                                         <h4><b>IOT</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -291,7 +291,7 @@ const CorosalSection = () => {
                                     </div>
                                     <div class="col-lg-6">
                                         <h4><b>Cloud Computing</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -305,8 +305,8 @@ const CorosalSection = () => {
                                         <img src={AboutImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Machine Learning</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("machineLearning")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -320,8 +320,8 @@ const CorosalSection = () => {
                                         <img src={AboutImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Data Enginnering</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("dataEnginnering")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -335,8 +335,8 @@ const CorosalSection = () => {
                                         <img src={AboutImg} class="img-fluid" alt="" data-aos="zoom-in" />
                                     </div>
                                     <div class="col-lg-6">
-                                        <h4><b>Data Analytics</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <h4><b>{t("dataAnalytics")}</b></h4>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -351,7 +351,7 @@ const CorosalSection = () => {
                                     </div>
                                     <div class="col-lg-6">
                                         <h4><b>Design Studio</b></h4>
-                                        <p>Deliver the kind of experience every fan dreams about with modern digital interfaces and expansive online reach</p>
+                                        <p>{t("corosalpara")}</p>
                                     </div>
                                 </div>
                             </div>

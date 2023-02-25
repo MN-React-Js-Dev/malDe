@@ -23,7 +23,7 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.1s" >
-                            <img src={htmlLogo} alt="" className="img-fluid-code" />
+                            <img src={htmlLogo} alt="" className="img-fluid-code blink_me0" />
                         </div>
                     </div>
                 </div>
@@ -32,20 +32,20 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.2s" >
-                             <img src={CssLogo} alt="" className="img-fluid-code " /></div>
+                             <img src={CssLogo} alt="" className="img-fluid-code blink_me1 " /></div>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.5s" >
-                            <img src={JavaLogo} alt="" className="img-fluid-code " /></div>
+                            <img src={JavaLogo} alt="" className="img-fluid-code blink_me2 " /></div>
                     </div>
                 </div>
 
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.3s" >
-                            <img src={JavasLogo} alt="" className="img-fluid-code " /></div>
+                            <img src={JavasLogo} alt="" className="img-fluid-code blink_me3 " /></div>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.4s" >
-                            <img src={ReactLogo} alt="" className="img-fluid-code " />
+                            <img src={ReactLogo} alt="" className="img-fluid-code blink_me4 " />
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,34 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
-                            <img src={PythonLogo} alt="" className="img-fluid-code " />
+                            <img src={PythonLogo} alt="" className="img-fluid-code blink_me5 " />
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
+                    <div className="client-logo">
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={AngularLogo} alt="" className="img-fluid-code blink_me " />
+                        </div>
+                    </div>
+                </div> */}
+
+
+                {/* <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
+                    <div className="client-logo">
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={FlutterLogo} alt="" className="img-fluid-code blink_me " />
+                        </div>
+                    </div>
+                </div> */}
+
+
+                <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
+                    <div className="client-logo">
+                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
+                            <img src={PhpLogo} alt="" className="img-fluid-code blink_me6 " />
                         </div>
                     </div>
                 </div>
@@ -74,7 +101,7 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
-                            <img src={AngularLogo} alt="" className="img-fluid-code " />
+                            <img src={MysqLogo} alt="" className="img-fluid-code blink_me7 " />
                         </div>
                     </div>
                 </div>
@@ -83,7 +110,7 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
-                            <img src={FlutterLogo} alt="" className="img-fluid-code " />
+                            <img src={AndroidLogo} alt="" className="img-fluid-code blink_me8 " />
                         </div>
                     </div>
                 </div>
@@ -92,34 +119,7 @@ const Logosection = () => {
                 <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div className="client-logo">
                         <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
-                            <img src={PhpLogo} alt="" className="img-fluid-code " />
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
-                    <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
-                            <img src={MysqLogo} alt="" className="img-fluid-code " />
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
-                    <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
-                            <img src={AndroidLogo} alt="" className="img-fluid-code " />
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
-                    <div className="client-logo">
-                        <div className="client-logo-img wow fadeInUp  animated" data-wow-delay="0.6s" >
-                            <img src={SwiftLogo} alt="" className="img-fluid-code " />
+                            <img src={SwiftLogo} alt="" className="img-fluid-code blink_me9 " />
                         </div>
                     </div>
                 </div>
